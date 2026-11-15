@@ -1,0 +1,14 @@
+module CarrierMod
+{
+    character_trait_definition CarrierMod:carrier
+    {
+        CharacterTrait = CarrierMod:carrier,
+        UIName = Carrier,
+        UIDescription = Zombies notice you less.<br>Wounds heal slower.<br>Random bouts of sickness.<br>Increased pain resistance,
+        Cost = 14,
+        Texture = media/ui/Traits/trait_carrier.png,
+        IsProfessionTrait = false,
+        DisabledInMultiplayer = false,
+        MutuallyExclusiveTraits = base:inconspicuous;base:slowhealer;base:resilient,
+    }
+}

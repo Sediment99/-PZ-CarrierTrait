@@ -1,0 +1,4 @@
+name=Carrier Trait
+id=CarrierMod
+description=You already have the Knox infection, but are Immune. This makes you immune to the Knox Infection, but at some costs.
+versionMin=42.22.**
